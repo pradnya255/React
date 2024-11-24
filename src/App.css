@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  margin-top: 0.5rem;
+  width: 95%;
+  margin-left: 1%;
+}
+.logo{
+  width: 140px;
+}
+.nav_items>ul{
+  display: flex;
+  font-size: 24px;
+  list-style-type: none;
+}
+.nav_items>ul>li{
+  padding: 30px;
+}
+
+.res-card{
+  
+  width: 250px;
+  height: 380px;
+}
+.res-card:hover{
+  cursor: pointer;
+  border: 1px solid gray;
+
+}
+.imgStyle{
+  width: 250px;
+}
